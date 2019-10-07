@@ -12,24 +12,24 @@
 </head>
   
   <h1>Random map picker</h1>
-  <p>Core maps:</p>
+  <p>Core map pool:</p>
   <form name="coremaps">
     <p><input id="cmb1" checked="checked" name="maps" type="checkbox" value="Dust2" /> <label for="cmb1">Dust2</label></p>
     <p><input id="cmb2" checked="checked" name="maps" type="checkbox" value="Mirage" /> <label for="cmb2">Mirage</label></p>
     <p><input id="cmb3" checked="checked" name="maps" type="checkbox" value="Nuke" /> <label for="cmb3">Nuke</label></p>
     <p><input id="cmb4" checked="checked" name="maps" type="checkbox" value="Inferno" /> <label for="cmb4">Inferno</label></p>
+    <p><input id="cmb5" checked="checked" name="maps" type="checkbox" value="Overpass" /> <label for="cmb5">Overpass</label></p>
   </form>
 
-  <p>Other pool maps:</p>
+  <p>Other map pool:</p>
   <form name="othermaps">
     <p><input id="opm1" checked="checked" name="others" type="checkbox" value="Cache" /> <label for="opm1">Cache</label></p>
-    <p><input id="opm2" checked="checked" name="others" type="checkbox" value="Overpass" /> <label for="opm2">Overpass</label></p>
-    <p><input id="opm3" checked="checked" name="others" type="checkbox" value="Vertigo" /> <label for="opm3">Vertigo</label></p>
-    <p><input id="opm4" checked="checked" name="others" type="checkbox" value="Train" /> <label for="opm4">Train</label></p>
+    <p><input id="opm2" checked="checked" name="others" type="checkbox" value="Vertigo" /> <label for="opm2">Vertigo</label></p>
+    <p><input id="opm3" checked="checked" name="others" type="checkbox" value="Train" /> <label for="opm3">Train</label></p>
   </form>
 
   <form>
-    <p>Number of core maps: <input max="4" min="0" id="numpick" name="numpick" type="number" value=2 /></p>
+    <p>Number of core maps: <input max="5" min="0" id="numpick" name="numpick" type="number" value=2 /></p>
   </form>
 
   <input type="button" style="height:30px;width:200px" value="Click for a random map" onClick="randomMap()">
